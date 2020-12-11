@@ -1,0 +1,94 @@
+/*Colors and font*/
+
+body {
+	background-color: #fbecec;
+	color: #1b6ca8;
+	font-family: helvetica;
+}
+
+h1 {
+	color: #d789d7;
+	font-family: GT-Sectra;
+	font-weight: 100;
+	letter-spacing: -1px;
+	font-size: 50px
+	text-transform: uppercase;
+}
+
+h2 {
+	color : #d789d7;
+	font-family: 'Lora', serif;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 25px
+}
+
+a {
+	text-decoration: none;
+	color: blue;
+	}
+a:hover {
+	color : yellow;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	
+}
+
+@media(max-width:760px){
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px){
+	.container {
+		width: 400px;
+	}
+}
+
+#profile {
+	border-radius: 50px;
+	width: 200px;
+	box-shadow: 5px 5px 3px grey;
+
+}
+
+.texte-justify {
+	text-align: center;
+}
+
+.h-justify {
+	text-align: center;
+}
+
+.card-white {
+	text-align: center;
+	background-color: white
+	padding: 30px
+	border-radius: 4px
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	margin: 20px 0px;
+}
+
+.ronde {
+	border-radius : 5px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+}
+
